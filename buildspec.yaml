@@ -54,7 +54,7 @@ phases:
   post_build:
     commands:
       - echo "Deploying to EKS cluster..."
-      - aws eks update-kubeconfig --region $AWS_REGION --name $EKS_CLUSTER_NAME
+      #- aws eks update-kubeconfig --region $AWS_REGION --name $EKS_CLUSTER_NAME
       #- kubectl apply -f Deployment.yaml -f service.yaml -f ingress.yaml -f hpa.yaml -n $K8S_NAMESPACE
       #- echo "Verifying deployment..."
       #- kubectl get deployments,svc,ingress,hpa -n $K8S_NAMESPACE
