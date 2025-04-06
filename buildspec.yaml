@@ -1,0 +1,67 @@
+version: 0.2
+
+env:
+  variables:
+    AWS_REGION: "us-east-1"
+    ECR_REGISTRY: "581531586746.dkr.ecr.us-east-1.amazonaws.com"
+    REPO_NAME: "myapp"
+    IMAGE_TAG: "wordpress-final"
+    EKS_CLUSTER_NAME: "my-eks-cluster"
+    K8S_NAMESPACE: "eks-project"
+
+phases:
+  install:
+    commands:
+      - echo Installing kubectl...
+      # Download kubectl binary
+      - curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.21.2/2021-07-05/bin/linux/amd64/kubectl || { echo "Failed to download kubectl"; exit 1; }
+      # Give execute permission to kubectl
+      - chmod +x ./kubectl
+      # Move kubectl to the system's bin folder
+      - mv ./kubectl /usr/local/bin/
+
+  pre_build:
+    commands:
+      #- echo Retrieving Docker Hub credentials from Secrets Manager...
+      #- DOCKERHUB_USERNAME=$(aws secretsmanager get-secret-value --secret-id dockerhub-credentials --query SecretString --output text | jq -r .DOCKERHUB_USERNAME)
+      #- DOCKERHUB_TOKEN=$(aws secretsmanager get-secret-value --secret-id dockerhub-credentials --query SecretString --output text | jq -r .DOCKERHUB_TOKEN)
+      #- echo "Username retrieved: $DOCKERHUB_USERNAME"  # Debug: Check if username is retrieved
+      #- echo "Token retrieved: [REDACTED]"  # Debug: Confirm token retrieval (don’t print the token)
+      #- echo Logging in to Docker Hub...
+      #- docker login -u "$DOCKERHUB_USERNAME" -p "$DOCKERHUB_TOKEN" || { echo "Docker Hub login failed"; exit 1; }
+      - echo Logging in to Amazon ECR...
+      - aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $ECR_REGISTRY
+
+  build:
+    commands:
+      - echo Building the Docker image...
+      - docker build -t $ECR_REGISTRY/$REPO_NAME:$CODEBUILD_RESOLVED_SOURCE_VERSION .
+      - docker tag $ECR_REGISTRY/$REPO_NAME:$CODEBUILD_RESOLVED_SOURCE_VERSION $ECR_REGISTRY/$REPO_NAME:$IMAGE_TAG
+      - docker push $ECR_REGISTRY/$REPO_NAME:$CODEBUILD_RESOLVED_SOURCE_VERSION
+      - docker push $ECR_REGISTRY/$REPO_NAME:$IMAGE_TAG
+    #- echo Deleting old image tag from ECR...
+    #- aws ecr batch-delete-image \
+    #    --repository-name $REPO_NAME \
+     #   --image-ids imageTag=$IMAGE_TAG \
+     #   --region $AWS_REGION || echo "No existing image with tag $IMAGE_TAG"
+
+    #- echo Building the Docker image...
+    #- docker build --no-cache -t $ECR_REGISTRY/$REPO_NAME:$IMAGE_TAG .
+
+    #- echo Pushing the new image to ECR...
+    #- docker push $ECR_REGISTRY/$REPO_NAME:$IMAGE_TAG
+
+  post_build:
+    commands:
+      - echo "Deploying to EKS cluster..."
+      - aws eks update-kubeconfig --region $AWS_REGION --name $EKS_CLUSTER_NAME
+      #- kubectl apply -f Deployment.yaml -f service.yaml -f ingress.yaml -f hpa.yaml -n $K8S_NAMESPACE
+      #- echo "Verifying deployment..."
+      #- kubectl get deployments,svc,ingress,hpa -n $K8S_NAMESPACE
+
+artifacts:
+  files:
+    - Deployment.yaml
+    - service.yaml
+    - ingress.yaml
+    - hpa.yaml
