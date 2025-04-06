@@ -1,0 +1,278 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: SKT Gym Master\n"
+"POT-Creation-Date: 2024-10-16 12:17+0530\n"
+"PO-Revision-Date: 2024-10-16 12:17+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: archive.php:28 front-page.php:41 front-page.php:77
+msgid "Back"
+msgstr ""
+
+#: archive.php:29 front-page.php:42 front-page.php:78
+msgid "Next"
+msgstr ""
+
+#: archive.php:30
+msgid "Posts navigation"
+msgstr ""
+
+#: footer.php:47
+msgid "Facebook"
+msgstr ""
+
+#: footer.php:50
+msgid "Twitter"
+msgstr ""
+
+#: footer.php:53
+msgid "Linkedin"
+msgstr ""
+
+#: footer.php:57
+msgid "Instagram"
+msgstr ""
+
+#: footer.php:103
+msgid "Theme By "
+msgstr ""
+
+#. Author of the plugin/theme
+#: footer.php:106 footer.php:108 inc/about-themes.php:28
+msgid "SKT Themes"
+msgstr ""
+
+#: functions.php:30
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:41
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php:42 functions.php:51 functions.php:60 functions.php:69
+msgid "Appears on page footer"
+msgstr ""
+
+#: functions.php:50
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php:59
+msgid "Footer Column 3"
+msgstr ""
+
+#: functions.php:68
+msgid "Footer Column 4"
+msgstr ""
+
+#: functions.php:131
+msgid "Thank you for installing SKT Gym Master!"
+msgstr ""
+
+#: functions.php:132
+msgid ""
+"SKT Gym Master comes with 150+ ready to use Elementor templates. Install the "
+"SKT Templates plugin to get started."
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: inc/about-themes.php:5
+msgid "About Theme"
+msgstr ""
+
+#: inc/about-themes.php:15
+msgid "Theme Information"
+msgstr ""
+
+#: inc/about-themes.php:17
+msgid ""
+"Elevate your fitness center, health club, or exercise studio with our "
+"dynamic WordPress theme. Designed for personal trainers, athletic "
+"facilities, and wellness hubs, this theme offers sleek design, intuitive "
+"customization, and responsive layouts. Engage your clients with powerful "
+"class schedules, membership options, and trainer profiles. Whether you run a "
+"sports facility, training center, or a fitness studio, this theme is perfect "
+"for building a strong online presence. Boost your brand and keep clients "
+"motivated with the ideal website for your workout space, health and wellness "
+"center, or active lifestyle community."
+msgstr ""
+
+#: inc/about-themes.php:18
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/about-themes.php:23
+msgid "Live Demo"
+msgstr ""
+
+#: inc/about-themes.php:24
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/about-themes.php:25
+msgid "Documentation"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer.php:99
+msgid "Copyright Text Color"
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Homepage Header Transparent"
+msgstr ""
+
+#: inc/customizer.php:117
+msgid "Uncheck To Enable Transparent Header."
+msgstr ""
+
+#: inc/customizer.php:123
+msgid "Header Button"
+msgstr ""
+
+#: inc/customizer.php:133
+msgid "Add Button Text"
+msgstr ""
+
+#: inc/customizer.php:144
+msgid "Add Button Link"
+msgstr ""
+
+#: inc/customizer.php:156
+msgid "Uncheck To Show Button In Header"
+msgstr ""
+
+#: inc/customizer.php:163
+msgid "Inner Page Banner Settings"
+msgstr ""
+
+#: inc/customizer.php:174 inc/customizer.php:208
+msgid "Upload Default Banner Image"
+msgstr ""
+
+#: inc/customizer.php:189
+msgid ""
+"Uncheck To Show Inner Page Banner On All Inner Pages. For Display Different "
+"Banner Image On Each Page Set Page Featured Image. Set Image Size (1400 X "
+"300) For Better Resolution."
+msgstr ""
+
+#: inc/customizer.php:196
+msgid "Category / Archive And Single Post Banner Settings"
+msgstr ""
+
+#: inc/customizer.php:223
+msgid ""
+"Uncheck To Show Inner Post Banner On Category / Archive And Single Post. For "
+"Display Different Banner Image On Each Post Set Post Featured Image. Set "
+"Image Size (1400 X 300) For Better Resolution."
+msgstr ""
+
+#: inc/customizer.php:230
+msgid "Footer Info Box"
+msgstr ""
+
+#: inc/customizer.php:241
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/customizer.php:257
+msgid "Footer Logo Link"
+msgstr ""
+
+#: inc/customizer.php:268
+msgid "Add Facebook Link"
+msgstr ""
+
+#: inc/customizer.php:278
+msgid "Add Twitter Link"
+msgstr ""
+
+#: inc/customizer.php:287
+msgid "Add Linkedin Link"
+msgstr ""
+
+#: inc/customizer.php:297
+msgid "Add Instagram Link"
+msgstr ""
+
+#: inc/customizer.php:309
+msgid "Uncheck To Show This Section"
+msgstr ""
+
+#: inc/customizer.php:315
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:324
+msgid "Add Copyright Text Here"
+msgstr ""
+
+#: page.php:24
+msgid "Pages:"
+msgstr ""
+
+#: page.php:28
+msgid "Page"
+msgstr ""
+
+#: sidebar.php:12
+msgid "Categories"
+msgstr ""
+
+#: sidebar.php:20
+msgid "Meta"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "SKT Gym Master"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.sktthemes.org/shop/free-physical-fitness-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Elevate your fitness center, health club, or exercise studio with our "
+"dynamic WordPress theme. Designed for personal trainers, athletic "
+"facilities, and wellness hubs, this theme offers sleek design, intuitive "
+"customization, and responsive layouts. Engage your clients with powerful "
+"class schedules, membership options, and trainer profiles. Whether you run a "
+"sports facility, training center, or a fitness studio, this theme is perfect "
+"for building a strong online presence. Boost your brand and keep clients "
+"motivated with the ideal website for your workout space, health and wellness "
+"center, or active lifestyle community. Documentation : https://sktthemesdemo."
+"net/documentation/skt-gym-master-doc/"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.sktthemes.org"
+msgstr ""

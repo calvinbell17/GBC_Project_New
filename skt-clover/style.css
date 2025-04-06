@@ -1,0 +1,100 @@
+/*
+Theme Name: SKT Clover
+Theme URI: https://www.sktthemes.org/shop/wordpress-flower-shop-theme-free
+Author: SKT Themes
+Author URI: https://www.sktthemes.org
+Description: SKT Clover is a florist WordPress theme. It is meant for floral shop and boutique or bloom shop. It is ideal for floral designers, flower arrangers, and botanical stylists. It is WooCommerce and Elementor compatible. Whether you're a flower merchant, flower seller, or flower vendor you can use this flexible and scalable template to showcase your products like flowering plants, florets, blossom, buds and posies. Documentation : https://www.sktthemesdemo.net/documentation/skt-plants-doc
+Template: skt-plants
+Version: 1.0
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
+Text Domain: skt-clover
+Tags: two-columns,right-sidebar,full-width-template,custom-background,custom-colors,custom-menu,sticky-post,theme-options,threaded-comments,featured-images,footer-widgets,translation-ready,rtl-language-support,custom-logo,editor-style,custom-header,blog,e-commerce,portfolio
+
+SKT Clover is based on Underscores theme(Underscores is distributed under the terms of the GNU GPL v2 or later).
+
+SKT Clover WordPress Theme has been created by SKT Themes(sktthemes.org), 2025.
+SKT Clover WordPress Theme is released under the terms of GNU GPL
+*/
+a{color:#a4bf91;}
+a:hover{color:#5e8642; text-decoration:underline;}
+.logo{padding:32px 70px 0 0;}
+#logo-main a:focus,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+a:focus{outline: thin dotted #5e8642;}
+.cols-3 ul li a{font-size:17px; color:#343434;}
+#sidebar ul li a:hover, .blog_lists h4 a:hover, .recent-post h6 a:hover, .recent-post a:hover, .design-by a, .tagcloud a, .blocksbox:hover h3, .rdmore a, .header-phone-number, #sidebar li a:hover, .main-navigation ul li ul li a, .footer-row .cols-3 ul li a:hover, .footer-row .cols-3 ul li.current_page_item a, .footer-row .cols-3 ul li.current-menu-item a, #sidebar ul li a:hover, .main-navigation ul li:hover a, .main-navigation ul li a:focus, .main-navigation ul li a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_item a{color:#5e8642;}
+#sidebar .wp-block-group{padding-top:15px;}
+#sidebar ol, #sidebar ul{margin-bottom:0px;}
+#sidebar ul li{padding:4px 0;}
+#sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4, #sidebar h5, #sidebar h6, #sidebar label{font-family: 'Playfair Display';}
+#sidebar h2, #sidebar label{font-size: 24px;}
+#sidebar .wp-block-latest-comments__comment{margin-bottom:0px;}
+#navigation{width:70%; text-align:center; font-family:'Playfair Display'; font-size:20px; font-weight:600;}
+body.page-template-builder-fullwidth-std .header{border-bottom:none;}
+.header-extras li{background-color:#f8f9ef;}
+.custom-cart-count{background-color: #a4bf91;}
+.main-navigation ul li a{font-size:20px; font-weight:600;}
+.main-navigation ul ul{background-color:#FFF;}
+.main-navigation ul ul li a:hover, .main-navigation ul ul li a:focus{background: #5e8642;}
+.header-extras{float:right; margin-right:25px;}
+.logo h2{font-family:'Playfair Display'; font-size:34px; font-weight:500;}
+body.wp-custom-logo .logo{padding: 35px 30px 20px 0;}
+.sticky{border-right-color:#5e8642;}
+.blog_lists h4 a{color:#0c1d00;}
+#sidebar{background: #f6f4f4; padding: 25px 30px; border-radius: 6px;}
+.wp-block-latest-comments__comment-date{padding-left:7px;}
+.wp-block-search__inside-wrapper{display: flex; border: 2px solid #a4bf91; border-radius: 25px; overflow: hidden; background: #fff;}
+.wp-block-search__input{flex-grow: 1; border: none; padding: 10px; font-size: 16px; outline: none;}
+.wp-block-search__button{background: #a4bf91; color: #fff; border: none; padding: 10px 15px; cursor: pointer; transition: background 0.3s;}
+.wp-block-search__button:hover{background: #5e8642;}
+.wp-block-heading{font-size: 20px; color: #0c1d00; margin-top: 20px; padding-bottom: 5px;}
+.wp-block-latest-posts__list{list-style: none; padding: 0;}
+.wp-block-latest-posts__post-title{display: block; text-decoration: none; color: #007bff; padding: 0; transition: color 0.3s;}
+.wp-block-latest-posts__post-title:hover{color: #0056b3;}
+.wp-block-latest-comments{list-style: none; padding: 0;}
+.wp-block-latest-comments__comment-meta{font-size: 14px; color: #555;}
+.wp-block-latest-comments__comment-author{font-weight: bold; color: #007bff; text-decoration: none; transition: color 0.3s;}
+.wp-block-latest-comments__comment-author:hover{color: #0056b3;}
+.wp-block-latest-comments__comment-link{text-decoration: none; color: #333; transition: color 0.3s;}
+.wp-block-latest-comments__comment-link:hover{color: #007bff;}
+.pagination .nav-links span.current, .pagination .nav-links a:hover{background:#a4bf91;}
+.black-title h1{top:40%;}
+.inner-banner-thumb{min-height:300px;}
+.inner-banner-thumb img{max-height:300px;} 
+.inner-banner-thumb h1{color:#0c1d00;}
+.copyright-wrapper{background-color:#8ca877;}
+.footerarea{background-color: #a4bf91;}
+.footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6{font-family:'Playfair Display';}
+.footer-row .cols-3:nth-child(1){width:37%;}
+.footer-row .cols-3:nth-child(2){width:28%; margin:0 2%;}
+.footer-row .cols-3:nth-child(3){width:28%; margin:0 0 0 2%;}
+.ftr-widg{padding:60px 0 60px 0;}
+.widget-column-1 h2{margin-top:0px;}
+.widget-column-2{background: #ffffff; border-radius: 15px; min-height: 385px; padding: 20px 40px;}
+.widget-column-3{background: #ffffff; border-radius: 15px; min-height: 385px; padding: 20px 40px;}
+.widget-column-2 h1, .widget-column-2 h2, .widget-column-2 h3, .widget-column-2 h4, .widget-column-2 h5, .widget-column-2 h6{color:#0c1d00;}
+.widget-column-3 h1, .widget-column-3 h2, .widget-column-3 h3, .widget-column-3 h4, .widget-column-3 h5, .widget-column-3 h6{color:#0c1d00;}
+.copyright-txt{padding:25px 0;}
+.copyright-txt a{color:#FFF; text-decoration:underline;}

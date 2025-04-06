@@ -1,0 +1,36 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: wordpress-ingress
+  namespace: eks-project
+  labels:
+    app: wordpress 
+  annotations:
+    # ALB Settings
+    alb.ingress.kubernetes.io/load-balancer-name: wordpress-alb
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/group.name: wordpress-group
+
+    # Networking
+    alb.ingress.kubernetes.io/subnets: subnet-076b40e30bb7b79d5,subnet-0f6963df50c6b69e8
+    alb.ingress.kubernetes.io/security-groups: sg-007eec980dbe82770
+
+    # Listener and Healthcheck
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
+    alb.ingress.kubernetes.io/healthcheck-path: /
+
+spec:
+  ingressClassName: alb
+  rules:
+    # Optional: Add host when using Route 53 or domain mapping
+    # - host: basiltalias.site
+    - http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: wordpress-service
+                port:
+                  number: 80

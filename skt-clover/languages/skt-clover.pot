@@ -1,0 +1,202 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: SKT Clover\n"
+"POT-Creation-Date: 2025-03-25 10:45+0530\n"
+"PO-Revision-Date: 2025-03-25 10:45+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: archive.php:28 front-page.php:37 front-page.php:67
+msgid "Back"
+msgstr ""
+
+#: archive.php:29 front-page.php:38 front-page.php:68
+msgid "Next"
+msgstr ""
+
+#: archive.php:30
+msgid "Posts navigation"
+msgstr ""
+
+#: footer.php:51
+msgid "Theme By "
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: footer.php:53 footer.php:56
+msgid "SKT Clover"
+msgstr ""
+
+#: functions.php:30
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:41
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:42
+msgid "Appears on sidebar"
+msgstr ""
+
+#: functions.php:50
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php:51 functions.php:60 functions.php:69
+msgid "Appears on page footer"
+msgstr ""
+
+#: functions.php:59
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php:68
+msgid "Footer Column 3"
+msgstr ""
+
+#: functions.php:132
+msgid "Thank you for installing SKT Clover!"
+msgstr ""
+
+#: functions.php:133
+msgid ""
+"SKT Clover comes with 150+ ready to use Elementor templates. Install the SKT "
+"Templates plugin to get started."
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:65 header.php:66
+msgid "Search"
+msgstr ""
+
+#: header.php:71
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/about-themes.php:5
+msgid "About Theme"
+msgstr ""
+
+#: inc/about-themes.php:15
+msgid "Theme Information"
+msgstr ""
+
+#: inc/about-themes.php:17
+msgid ""
+"SKT Clover is flexible. It is also scalable WordPress theme designed for "
+"professionals in mind science, behavioral science, and cognitive psychology. "
+"Built with the drag-and-drop Elementor builder, it offers effortless "
+"customization for experts in psychotherapy, psychoanalysis, and "
+"neuroscience. Its SEO-friendly structure ensures better visibility, making "
+"it ideal for showcasing psychological studies, human behavior research, and "
+"cognitive science insights. Whether you focus on mental study, psychological "
+"analysis, or therapy services, SKT Clover provides a seamless and "
+"professional platform to engage your audience effectively for reiki and "
+"healing."
+msgstr ""
+
+#: inc/about-themes.php:18
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/about-themes.php:23
+msgid "Live Demo"
+msgstr ""
+
+#: inc/about-themes.php:24
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/about-themes.php:25
+msgid "Documentation"
+msgstr ""
+
+#. Author of the plugin/theme
+#: inc/about-themes.php:28
+msgid "SKT Themes"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "Copyright Text Color"
+msgstr ""
+
+#: inc/customizer.php:106
+msgid "Inner Page Banner Settings"
+msgstr ""
+
+#: inc/customizer.php:117 inc/customizer.php:151
+msgid "Upload Default Banner Image"
+msgstr ""
+
+#: inc/customizer.php:132
+msgid ""
+"Uncheck To Show Inner Page Banner On All Inner Pages. For Display Different "
+"Banner Image On Each Page Set Page Featured Image. Set Image Size (1400 X "
+"450) For Better Resolution."
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Category / Archive And Single Post Banner Settings"
+msgstr ""
+
+#: inc/customizer.php:166
+msgid ""
+"Uncheck To Show Inner Post Banner On Category / Archive And Single Post. For "
+"Display Different Banner Image On Each Post Set Post Featured Image. Set "
+"Image Size (1400 X 450) For Better Resolution."
+msgstr ""
+
+#: inc/customizer.php:172
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:181
+msgid "Add Copyright Text Here"
+msgstr ""
+
+#: sidebar.php:12
+msgid "Categories"
+msgstr ""
+
+#: sidebar.php:20
+msgid "Meta"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.sktthemes.org/shop/wordpress-flower-shop-theme-free"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Description With Doc Link"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.sktthemes.org"
+msgstr ""
